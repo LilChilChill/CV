@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr.custom-color{
+  border: 1px solid orange;
+  height: 1px;
+  background-color: orange;
+}
+h2{
+  letter-spacing: 2px;
+}
+.image{
+  position: relative; 
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+.image img{
+    transform: translateX(27.5%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.image hr{
+  position: relative;
+  top: 125.5px;
+  width: 100%;
+}
+  .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .left {
+    margin-left: 20px;
+    width: 25%;
+    background-color: rgb(91, 89, 89);
+  }
+  
+  .right {
+    /* position: absolute; */
+    top: 10%;
+    right: 6%;
+    width: 45%;
+  }
+  
+  .centered {
+    margin: 30px;
+  }
+  .contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .head{
+    color: orange;
+    letter-spacing: 5px;
+  }
+  .info{
+    color: orange;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .info li{
+    margin-bottom: 10px;
+  }
+  .info-text h4{
+    margin-right: 10px;
+  }
+  .info-text{
+    display: flex;
+    flex-direction:row;
+    text-align: start;
+    margin-bottom: 10px;
+  }
+
+  .info-main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .about-me{
+    margin-top: 30px;
+  }
+  .Work{
+    margin-top: 10px;
+  }
+  .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+
+  }
+  .text h3{
+    color: rgb(69, 69, 69);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .references{
+    margin-top: 10px;
+  }
+  .re-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .re-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .re-contact-info{
+    display: flex;
+    justify-content:flex-start;
+    color: rgb(51, 49, 49);
+  }
